@@ -96,7 +96,7 @@ number in your browser. */
 
 // Solution
 
-var userInput = +prompt("Enter your any number to generate table");
+/* var userInput = +prompt("Enter your any number to generate table");
 console.log(userInput);
 document.write(`<h1>Table of ${userInput}</h1>`);
 document.write(`<h3>${userInput} X 1 = ${userInput * 1}</h3>`);
@@ -108,4 +108,122 @@ document.write(`<h3>${userInput} X 6 = ${userInput * 6}</h3>`);
 document.write(`<h3>${userInput} X 7 = ${userInput * 7}</h3>`);
 document.write(`<h3>${userInput} X 8 = ${userInput * 8}</h3>`);
 document.write(`<h3>${userInput} X 9 = ${userInput * 9}</h3>`);
-document.write(`<h3>${userInput} X 10 = ${userInput * 10}</h3>`);
+document.write(`<h3>${userInput} X 10 = ${userInput * 10}</h3>`); */
+
+/* 6. The Temperature Converter: It’s hot out! Let’s make a
+converter based on the steps here.
+a. Store a Celsius temperature into a variable.
+b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+c. Now store a Fahrenheit temperature into a variable.
+d. Convert it to Celsius & output “NNoF is NNoC”.
+
+Conversion Formulae:
+C = (F - 32) x 5 / 9
+F = (C x 9 / 5) + 32*/
+
+/* // a. Store a Celsius temperature into a variable.
+var celsiusTemperature = 30;
+
+// b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+var fahrenheitTemperature = (celsiusTemperature * 9/5) + 32;
+document.write(celsiusTemperature + "°C is " + fahrenheitTemperature + "°F<br>");
+
+// c. Now store a Fahrenheit temperature into a variable.
+var fahrenheitTemperature2 = 86;
+
+// d. Convert it to Celsius & output “NNoF is NNoC”.
+var celsiusTemperature2 = (fahrenheitTemperature2 - 32) * 5/9;
+document.write(fahrenheitTemperature2 + "°F is " + celsiusTemperature2 + "°C<br>"); */
+
+/* 7. Write a program to implement checkout process of a
+shopping cart system for an e-commerce website. Store
+the following in variables
+
+a. Price of item 1
+b. Price of item 2
+c. Ordered quantity of item 1
+d. Ordered Quantity of item 2
+e. Shipping charges
+
+Compute the total cost & show the receipt in your browser. */
+
+// Solution
+
+/* var priceItem1 = 650;
+var priceItem2 = 100;
+var itemQuantity1 = 3;
+var itemQuantity2 = 7;
+var shippingCharges = 100;
+
+document.write(`<h3>Price of item 1 is ${priceItem1}</h3>`);
+document.write(`<h3>Quantity of item 1 is ${itemQuantity1}</h3>`);
+document.write(`<h3>Price of item 2 is ${priceItem2}`);
+document.write(`<h3>Quantity of item 2 is ${itemQuantity2}</h3>`);
+document.write(`<h3>Shipping charges ${shippingCharges}</h3>`);
+document.write(
+  `<h3>Total Cost of your order ${
+    priceItem1 * itemQuantity1 + priceItem2 * itemQuantity2
+  }</h3>`
+); */
+
+/* 8. Store total marks & marks obtained by a student in 2
+variables. Compute the percentage & show the result in
+your browser */
+
+/* var totalMarks = 1100;
+var obtainedMarks = 735;
+var percentage = (obtainedMarks / totalMarks) * 100;
+document.write(`<h1>Total Marks: ${totalMarks}</h1>`);
+document.write(`<h1>Obtained Marks: ${obtainedMarks}</h1>`);
+document.write(`<h1>Percentage: ${Math.trunc(percentage)}</h1>`); */
+
+/* var dollar = 10;
+var pakDollar = 278;
+var riyal = 25;
+var pakRiyal = 78;
+
+document.write(`<h1>Currency in PKR</h1>`);
+document.write(
+  `<h3>${dollar} US Dollar amount in pakistan = ${dollar * pakDollar} PKR</h3>`
+);
+document.write(
+  `<h3>${riyal} Saudi Riyal amount in pakistan = ${riyal * pakRiyal} PKR</h3>`
+);
+document.write(
+  `<h3>Total Currency in PKR = ${riyal * pakRiyal + dollar * pakDollar}</h3>`
+); */
+
+/* 10. Write a program to initialize a variable with some
+number and do arithmetic in following sequence:
+a. Add 5
+b. Multiply by 10
+c. Divide the result by 2
+Perform all calculations in a single expression */
+
+// Solution
+
+// var number = 29;
+// document.write(`<h1>${number + 5}</h1>`);
+// document.write(`<h1>${number - 10}</h1>`);
+// document.write(`<h1>${number / 2}</h1>`);
+
+/*
+ 11. The Age Calculator: Forgot how old someone is?
+Calculate it!
+a. Store the current year in a variable.
+b. Store their birth year in a variable.
+c. Calculate their 2 possible ages based on the stored
+values.
+
+Output them to the screen like so: “They are either NN or NN
+years old”. 
+*/
+
+// Solution
+
+/* var currentYear = 2024;
+var birthYear = 2004;
+var age = currentYear - birthYear;
+document.write(`<h1>Current Year: ${currentYear}</h1>`);
+document.write(`<h1>Birth Year: ${birthYear}</h1>`);
+document.write(`<h1>Your Age is: ${age}</h1>`); */
