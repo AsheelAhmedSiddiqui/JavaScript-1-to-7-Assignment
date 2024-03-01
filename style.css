@@ -68,6 +68,18 @@ footer {
   /* margin-top: 5rem; */
 }
 
+h3 {
+  text-align: center;
+}
+
+p {
+  width: 650px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
   text-align: center;
   margin-top: 20px;
